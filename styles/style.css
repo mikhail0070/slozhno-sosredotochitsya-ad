@@ -51,7 +51,7 @@
 .cover {
   display: grid;
   padding: 10px;
-  min-block-size: 100vh;
+  height: 100vh;
 }
 .rec-decor {
   position: absolute;
