@@ -292,7 +292,7 @@
 
 @media (width >= 1024px) {
   .section {
-    grid-template-columns: 315px 1fr;
+    grid-template-columns: 1fr;
     column-gap: 20px;
   }
 
