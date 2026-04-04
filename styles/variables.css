@@ -12,7 +12,6 @@
   --color-black-2: #353430;
   --color-gray: #35343040;
 
-
   --text-color: var(--color-pink-2, #f1b2ce);
   --brand-color: var(--color-purple-1, #db00ff);
   --secondary-color: var(--color-purple-2, #ff0070);
@@ -22,6 +21,6 @@
   --page-background-color: var(--color-black-1, #000028);
   --page-background-image: url("../images/cover-image-dark.png");
   --rec-decor-visibility: visible;
-  
+
   --page-font-family: "IBM Plex mono", monospace;
 }
