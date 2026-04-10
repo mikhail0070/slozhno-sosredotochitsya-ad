@@ -1,26 +1,23 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
 :root {
-  --color-pink-1: #fff1f7;
-  --color-pink-2: #f1b2ce;
-  --color-pink-3: #ffc2e6;
-  --color-pink-4: #ff8dcb;
+  --basic-pink: #FF8DCB;
+  --title-pink: #FFC2E6;
+  --almost-white-bg: #FFF1F7;
+  --real-red: #ff0070;
+  --approximately-black: #000028;
+  --almost-black: #353430;
 
-  --color-purple-1: #db00ff;
-  --color-purple-2: #ff0070;
-  --color-light-purple: #ff007040;
-
-  --color-black-1: #000028;
-  --color-black-2: #353430;
-  --color-gray: #35343040;
-
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-add: var(--color-light-purple, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
-  --highlight-color: var(--color-black-1, #000028);
-  --page-background-color: var(--color-black-1, #000028);
-  --page-background-image: url("../images/cover-image-dark.png");
-  --rec-decor-visibility: visible;
-
-  --page-font-family: "IBM Plex mono", monospace;
+  --regular-font-size: 18px;
+  --regular-line-height: 100%;
+  --regular-gap: 10px;
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --min-height: 668px;
+  --header-margin-left: min(10px , 20px - 2.6vw);
+  --section-child-margin: 40px;
+  --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --corner-thickness: 1px;
+  --rec_empty_x_pos: 30px;
 }
